@@ -1,0 +1,9 @@
+[
+  {
+    "key": "mnetplus",
+    "name": "리센느 공식 캘린더",
+    "type": "mnetplus",
+    "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
+    "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule"
+  }
+]

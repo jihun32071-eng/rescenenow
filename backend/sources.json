@@ -1,0 +1,149 @@
+[
+  {
+    "key": "rescene_official",
+    "name": "RESCENE",
+    "handle": "RESCENE_official",
+    "channelId": "UCtKtCiaWRz-d3EZn2xd1mdA",
+    "category": "official",
+    "history": {"enabled": true, "tabs": ["videos", "shorts"], "maxPages": 8, "refreshHours": 24}
+  },
+  {
+    "key": "kbskpop",
+    "name": "KBS Kpop",
+    "handle": "KBSKpop",
+    "channelId": "UCeLPm9yH_a_QH8n6445G-Ow",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "mbckpop",
+    "name": "MBCkpop",
+    "handle": "MBCkpop",
+    "channelId": "UCe52oeb7Xv_KaJsEzcKXJJg",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "sbskpop",
+    "name": "SBSKPOP X INKIGAYO",
+    "handle": "SBSKPOP",
+    "channelId": "UCS_hnpJLQTvBkqALgapi_4g",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "teo_universe",
+    "name": "TEO 테오",
+    "handle": "TEO_universe",
+    "channelId": "UC-uIpGINZDL-VIHQQzJW8jw",
+    "category": "variety",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "mnet",
+    "name": "Mnet K-POP",
+    "handle": "Mnet",
+    "channelId": "UCbD8EppRX3ZwJSou-TVo90A",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "thekpop",
+    "name": "THE K-POP",
+    "handle": "thekpop",
+    "channelId": "UCoRXPcv8XK5fAplLbk9PTww",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "allthekpop",
+    "name": "ALL THE K-POP",
+    "handle": "ALLTHEKPOP",
+    "channelId": "UCPde4guD9yFBRzkxk2PatoA",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "1thek_originals",
+    "name": "1theK Originals",
+    "handle": "1theKOriginals",
+    "channelId": "UCqq-ovGE01ErlXakPihhKDA",
+    "category": "variety",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "1thek",
+    "name": "1theK",
+    "handle": "1theK",
+    "channelId": "UCweOkPb1wVVH0Q0Tlj4a5Pw",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "kbs_coolfm",
+    "name": "KBS CoolFM",
+    "handle": "KBS_CoolFM",
+    "channelId": "UCbVRtqsTmYh1xhrDSTfSQLg",
+    "category": "variety",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "ch117",
+    "name": "일일칠",
+    "handle": "ch117",
+    "channelId": "UCWaWvDRyhmSKOQWah7t7wuA",
+    "category": "variety",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "jtbc_entertainment",
+    "name": "JTBC Entertainment",
+    "handle": "JTBCentertainment",
+    "channelId": "UCFL1sCAksD6_7JIZwwHcwjQ",
+    "category": "variety",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "m2",
+    "name": "M2",
+    "handle": "MnetM2",
+    "channelId": "UCTQVIXvcHrR9jYoJ6qaBAow",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "sbs_zoom",
+    "name": "SBSKPOP ZOOM",
+    "handle": "SBSKPOP_ZOOM",
+    "channelId": "UCM3jwNRfl5-W8VzgT6DsaEQ",
+    "category": "stage",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "zip_ds",
+    "name": "집대성",
+    "handle": "ZIP_DS",
+    "channelId": "UC64aGo-8uz1dndBAB3VtL2w",
+    "category": "variety",
+    "history": {"enabled": true, "query": "RESCENE", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "kbs_happy_together",
+    "name": "KBS 해피투게더",
+    "channelId": "UC5HpbZB-E-DzFpWZmVlcV9A",
+    "category": "variety",
+    "matchDescriptionTags": true,
+    "excludeVideoIds": ["4ztyJnIWmzs"],
+    "includeVideoIds": ["ql9h_w1A26k", "uFNFhm2kUdM", "b32SceGMyVw", "m2_bzbKIOs8", "pjJS9fWCPic", "JD5jsjZyCUE", "Nms54YJnkX4", "Hc7XU7_x2nw", "AQF1pkWRnPA", "WTM6xgR_XgA", "GRNbKvT6iXg", "W3NP3LC2jwU"],
+    "history": {"enabled": true, "query": "리센느", "maxPages": 3, "refreshHours": 24}
+  },
+  {
+    "key": "anwonn",
+    "name": "안원잘부",
+    "handle": "helloiamwoninicetomeetyou",
+    "channelId": "UCWpY0eSJtyO-qNAPbKFRSSg",
+    "category": "anwonn",
+    "includeAll": true,
+    "history": {"enabled": true, "tabs": ["videos", "shorts"], "maxPages": 8, "refreshHours": 24}
+  }
+]

@@ -1,0 +1,620 @@
+{
+  "curated": {
+    "verifiedAt": "2026-10-10T09:56:18.782Z",
+    "events": [
+      {
+        "id": "6a8d885d8e8ebf53edc6a55d",
+        "title": "계명대학교 축제",
+        "start": "2026-10-01T20:00:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d885d8e8ebf53edc6a55d",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "행사"
+      },
+      {
+        "id": "6a8d889c8e8ebf53edc6a55f",
+        "title": "대구보건대학교 축제",
+        "start": "2026-10-01T22:10:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d889c8e8ebf53edc6a55f",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "행사"
+      },
+      {
+        "id": "6ac0db6e61092456453dd662",
+        "title": "SBS <무엇이든 해줄지니 - 비서진>",
+        "start": "2026-10-02T23:10:00+09:00",
+        "allDay": false,
+        "kind": "broadcast",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ac0db6e61092456453dd662",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "방송"
+      },
+      {
+        "id": "6a3e81070b7c92615f50c73f",
+        "title": "2026 입크 페스티벌",
+        "start": "2026-10-03T15:50:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e81070b7c92615f50c73f",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "행사"
+      },
+      {
+        "id": "6a98f6bd4563ce4caf466390",
+        "title": "제72회 백제문화제",
+        "start": "2026-10-03T20:30:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f6bd4563ce4caf466390",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "행사"
+      },
+      {
+        "id": "6abeae327cda1f77dc44908f",
+        "title": "2026 의령 리치리치페스티벌",
+        "start": "2026-10-04",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeae327cda1f77dc44908f",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "행사"
+      },
+      {
+        "id": "6aa966b78bbf3631c83b8e7f",
+        "title": "제14회 연수 능허대 문화축제",
+        "start": "2026-10-09T20:00:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "인천 연수한마음공원",
+        "sourceName": "RESCENE 공식 일정 · Mnet Plus",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6aa966b78bbf3631c83b8e7f",
+        "status": "confirmed",
+        "note": "리센느 공식 일정은 20:00. 주최 측 축하공연 전체 프로그램은 19:00~21:00입니다.",
+        "labelName": "행사"
+      },
+      {
+        "id": "6ac7a5627a5b7f332bf392dc",
+        "title": "KBS 2TV <해피투게더 - 혼자가 아니어서 좋아>",
+        "start": "2026-10-09T20:30:00+09:00",
+        "allDay": false,
+        "kind": "broadcast",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6ac7a5627a5b7f332bf392dc",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "방송"
+      },
+      {
+        "id": "6a98f7a94563ce4caf466391",
+        "title": "2026 대전 동구동락 축제",
+        "start": "2026-10-10T20:00:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "대전 소제동 동광장로 및 대동천 일원",
+        "sourceName": "RESCENE 공식 일정 · Mnet Plus",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a98f7a94563ce4caf466391",
+        "status": "confirmed",
+        "note": "공식 일정 기준. 동구청 안내에서도 10월 10일 출연을 확인했습니다.",
+        "labelName": "행사"
+      },
+      {
+        "id": "6a723c906e77820edf3dbd8c",
+        "title": "🎉 HAPPY LIV DAY",
+        "start": "2026-10-11",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a723c906e77820edf3dbd8c",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "기념일"
+      },
+      {
+        "id": "6a48ce2d2abffc033aa33c91",
+        "title": "2026 GHOST · 경기 한류 OST 뮤직페스티벌",
+        "start": "2026-10-11T16:10:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "파주 임진각 평화누리",
+        "sourceName": "RESCENE 공식 일정 · Mnet Plus",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a48ce2d2abffc033aa33c91",
+        "status": "confirmed",
+        "note": "리센느 공식 일정은 16:10. 페스티벌 전체 운영시간과는 다릅니다.",
+        "labelName": "행사"
+      },
+      {
+        "id": "6a4612a67dd960680ac6f9b8",
+        "title": "NOL FESTIVAL - 고양",
+        "start": "2026-10-17",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a4612a67dd960680ac6f9b8",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "공연"
+      },
+      {
+        "id": "6a8d89530baf003252ac6227",
+        "title": "마산대학교 축제",
+        "start": "2026-10-23",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a8d89530baf003252ac6227",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "행사"
+      },
+      {
+        "id": "6abeaf6f9fce30571f6042d7",
+        "title": "여기어때 콘서트팩 거제",
+        "start": "2026-10-24",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6abeaf6f9fce30571f6042d7",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "공연"
+      },
+      {
+        "id": "6a3e80b31df3183e76dd7b31",
+        "title": "경주 APEC 정상회의장 기념관 개관식",
+        "start": "2026-10-31",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/10?eventId=6a3e80b31df3183e76dd7b31",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "행사"
+      },
+      {
+        "id": "6ac0dfe7015621443851b99b",
+        "title": "미니 4집 PULSE 발매",
+        "start": "2026-11-03",
+        "allDay": true,
+        "kind": "release",
+        "location": "음원 발매",
+        "sourceName": "RESCENE 공식 일정 · Mnet Plus",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6ac0dfe7015621443851b99b",
+        "status": "confirmed",
+        "note": "발매일만 공식 확인됐으며 발매 시각은 미공개입니다.",
+        "labelName": "기념일"
+      },
+      {
+        "id": "6a3e7e069f69517347795cee",
+        "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
+        "start": "2026-11-07",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6a3e7e069f69517347795cee",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "공연"
+      },
+      {
+        "id": "6a723ca8ecba71370c377686",
+        "title": "🎉 HAPPY ZENA DAY",
+        "start": "2026-11-27",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6a723ca8ecba71370c377686",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "기념일"
+      },
+      {
+        "id": "6a723cc4ecba71370c377687",
+        "title": "🎉 HAPPY MINAMI DAY",
+        "start": "2026-11-29",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/11?eventId=6a723cc4ecba71370c377687",
+        "status": "confirmed",
+        "note": "",
+        "labelName": "기념일"
+      },
+      {
+        "id": "6a98f652301866263741bcec",
+        "title": "AAA 2026 in Kaohsiung",
+        "start": "2026-12-05",
+        "allDay": true,
+        "kind": "event",
+        "location": "",
+        "sourceName": "리센느 공식 캘린더",
+        "sourceUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule/2026/12?eventId=6a98f652301866263741bcec",
+        "status": "confirmed",
+        "note": "",
+        "end": "2026-12-07",
+        "labelName": "공연"
+      },
+      {
+        "id": "rescene-sbs8news-20261011",
+        "title": "SBS 8뉴스 · 리센느 인터뷰",
+        "start": "2026-10-11T20:00:00+09:00",
+        "allDay": false,
+        "kind": "broadcast",
+        "location": "SBS TV",
+        "sourceName": "SBS연예뉴스",
+        "sourceUrl": "https://ent.sbs.co.kr/amp/article.do?article_id=E10010323082",
+        "status": "confirmed",
+        "note": "20:00은 뉴스 방송 시작 시각입니다. 인터뷰 코너의 정확한 시작 시각은 미공개입니다."
+      },
+      {
+        "id": "rescene-kakao-friends-run-20261010",
+        "title": "카카오프렌즈 런 2026 · 리센느 축하공연",
+        "start": "2026-10-10T10:30:00+09:00",
+        "end": "2026-10-10T12:00:00+09:00",
+        "allDay": false,
+        "kind": "event",
+        "location": "성남 탄천종합운동장",
+        "sourceName": "카카오 행사 안내",
+        "sourceUrl": "https://b.kakao.com/views/kakaofriendsrun",
+        "verificationUrl": "https://www.yna.co.kr/amp/view/AKR20261010033200017",
+        "status": "confirmed",
+        "displayTime": "10:30–12:00 공연 프로그램",
+        "note": "주최 측 무대 이벤트·축하공연 프로그램 시간입니다. 리센느의 정확한 출연 시각은 미공개입니다. 출연은 연합뉴스 현장 취재로 확인했습니다.",
+        "verifiedAt": "2026-10-10"
+      },
+      {
+        "id": "rescene-mma-20261114",
+        "title": "MMA 2026 · 리센느 출연",
+        "start": "2026-11-14",
+        "end": "2026-11-16",
+        "allDay": true,
+        "kind": "event",
+        "location": "서울 고척스카이돔",
+        "sourceName": "카카오엔터테인먼트 · MMA 공식 발표",
+        "sourceUrl": "https://www.kakaoent.com/pr/detail/588",
+        "status": "confirmed",
+        "displayTime": "11월 14–15일 행사 · 출연일 미공개",
+        "note": "행사 양일 중 리센느의 정확한 출연일과 무대 시각은 아직 공개되지 않았습니다.",
+        "verifiedAt": "2026-10-10"
+      },
+      {
+        "id": "rescene-musicbank-japan-20261213",
+        "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
+        "start": "2026-12-13",
+        "allDay": true,
+        "kind": "event",
+        "location": "도쿄 MUFG 스타디움(국립경기장)",
+        "sourceName": "뮤직뱅크 글로벌 페스티벌 공식 사이트",
+        "sourceUrl": "https://www.music-bank.jp/",
+        "status": "confirmed",
+        "note": "리센느는 12월 13일 출연합니다. 전체 공연은 17:00 시작 예정이며 리센느의 개별 무대 시각은 미공개입니다.",
+        "verifiedAt": "2026-10-10"
+      }
+    ]
+  },
+  "calendars": [
+    {
+      "key": "mnetplus",
+      "name": "리센느 공식 캘린더",
+      "type": "mnetplus",
+      "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
+      "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
+      "attemptedAt": "2026-10-14T13:04:10.762Z",
+      "raw": {
+        "events": [
+          {
+            "id": "6a8d885d8e8ebf53edc6a55d",
+            "title": "계명대학교 축제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-01T11:00:00Z"
+          },
+          {
+            "id": "6a8d889c8e8ebf53edc6a55f",
+            "title": "대구보건대학교 축제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-01T13:10:00Z"
+          },
+          {
+            "id": "6ac0db6e61092456453dd662",
+            "title": "SBS <무엇이든 해줄지니 - 비서진>",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-10-02T14:10:00Z"
+          },
+          {
+            "id": "6a3e81070b7c92615f50c73f",
+            "title": "2026 입크 페스티벌",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-03T06:50:00Z"
+          },
+          {
+            "id": "6a98f6bd4563ce4caf466390",
+            "title": "제72회 백제문화제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-03T11:30:00Z"
+          },
+          {
+            "id": "6abeae327cda1f77dc44908f",
+            "title": "2026 의령 리치리치페스티벌",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-04"
+          },
+          {
+            "id": "6aa966b78bbf3631c83b8e7f",
+            "title": "제14회 연수 능허대 문화축제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-09T11:00:00Z"
+          },
+          {
+            "id": "6ac7a5627a5b7f332bf392dc",
+            "title": "KBS 2TV <해피투게더 - 혼자가 아니어서 좋아>",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-10-09T11:30:00Z"
+          },
+          {
+            "id": "6a98f7a94563ce4caf466391",
+            "title": "2026 대전 동구동락 축제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-10T11:00:00Z"
+          },
+          {
+            "id": "6a723c906e77820edf3dbd8c",
+            "title": "🎉 HAPPY LIV DAY",
+            "label": {
+              "id": "67ad882c12f28a75033a8c27",
+              "name": "기념일",
+              "color": "#E8A4D7"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-11"
+          },
+          {
+            "id": "6a48ce2d2abffc033aa33c91",
+            "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-11T07:10:00Z"
+          },
+          {
+            "id": "6acb95e6447ee70d40cd0eaa",
+            "title": "SBS 8 뉴스",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-10-11T11:00:00Z"
+          },
+          {
+            "id": "6a4612a67dd960680ac6f9b8",
+            "title": "NOL FESTIVAL - 고양",
+            "label": {
+              "id": "67ad882c12f28a75033a8c28",
+              "name": "공연",
+              "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-17"
+          },
+          {
+            "id": "6a8d89530baf003252ac6227",
+            "title": "마산대학교 축제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-23"
+          },
+          {
+            "id": "6abeaf6f9fce30571f6042d7",
+            "title": "여기어때 콘서트팩 거제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c28",
+              "name": "공연",
+              "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-24"
+          },
+          {
+            "id": "6a3e80b31df3183e76dd7b31",
+            "title": "경주 APEC 정상회의장 기념관 개관식",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-31"
+          },
+          {
+            "id": "6ac0dfe7015621443851b99b",
+            "title": "The 4th Mini Album [PULSE]",
+            "label": {
+              "id": "67ad882c12f28a75033a8c27",
+              "name": "기념일",
+              "color": "#E8A4D7"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-03"
+          },
+          {
+            "id": "6ace5948b37fff3eec685ced",
+            "title": "[PULSE] SHOWCASE",
+            "label": {
+              "id": "67ad882c12f28a75033a8c27",
+              "name": "기념일",
+              "color": "#E8A4D7"
+            },
+            "allDay": false,
+            "startAt": "2026-11-03T11:00:00Z"
+          },
+          {
+            "id": "6a3e7e069f69517347795cee",
+            "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
+            "label": {
+              "id": "67ad882c12f28a75033a8c28",
+              "name": "공연",
+              "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-07"
+          },
+          {
+            "id": "6a723ca8ecba71370c377686",
+            "title": "🎉 HAPPY ZENA DAY",
+            "label": {
+              "id": "67ad882c12f28a75033a8c27",
+              "name": "기념일",
+              "color": "#E8A4D7"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-27"
+          },
+          {
+            "id": "6a723cc4ecba71370c377687",
+            "title": "🎉 HAPPY MINAMI DAY",
+            "label": {
+              "id": "67ad882c12f28a75033a8c27",
+              "name": "기념일",
+              "color": "#E8A4D7"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-29"
+          },
+          {
+            "id": "6a98f652301866263741bcec",
+            "title": "AAA 2026 in Kaohsiung",
+            "label": {
+              "id": "67ad882c12f28a75033a8c28",
+              "name": "공연",
+              "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-12-05",
+            "endAtAllDay": "2026-12-06"
+          }
+        ],
+        "months": [
+          {
+            "month": "2026-10",
+            "stale": false,
+            "error": null,
+            "empty": false
+          },
+          {
+            "month": "2026-11",
+            "stale": false,
+            "error": null,
+            "empty": false
+          },
+          {
+            "month": "2026-12",
+            "stale": false,
+            "error": null,
+            "empty": false
+          },
+          {
+            "month": "2027-01",
+            "stale": false,
+            "error": null,
+            "empty": false
+          }
+        ]
+      },
+      "checkedAt": "2026-10-14T13:04:10.762Z",
+      "stale": false,
+      "error": null
+    }
+  ],
+  "refresh": {
+    "attemptedAt": "2026-10-14T13:04:10.719Z",
+    "completedAt": "2026-10-14T13:04:25.180Z",
+    "mode": "scheduled",
+    "intervalMinutes": 30,
+    "freshnessMinutes": 90,
+    "nextCheckAt": "2026-10-14T13:34:25.180Z",
+    "hasErrors": false,
+    "persistenceError": null
+  }
+}
