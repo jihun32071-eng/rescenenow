@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-10-23T06:26:58.584Z",
+      "attemptedAt": "2026-10-23T12:00:10.041Z",
       "raw": {
         "events": [
           {
@@ -486,12 +486,34 @@
             "startAtAllDay": "2026-10-23"
           },
           {
+            "id": "6adb1f0443ea3171535c8d2a",
+            "title": "동아대학교 축제 (승학캠)",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-23"
+          },
+          {
             "id": "6abeaf6f9fce30571f6042d7",
             "title": "여기어때 콘서트팩 거제",
             "label": {
               "id": "67ad882c12f28a75033a8c28",
               "name": "공연",
               "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-10-24"
+          },
+          {
+            "id": "6adb1fc313e68b02d4a6b12a",
+            "title": "한화오션 오션하모니",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
             },
             "allDay": true,
             "startAtAllDay": "2026-10-24"
@@ -602,18 +624,18 @@
           }
         ]
       },
-      "checkedAt": "2026-10-23T06:26:58.584Z",
+      "checkedAt": "2026-10-23T12:00:10.041Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-10-23T06:26:58.550Z",
-    "completedAt": "2026-10-23T06:26:59.977Z",
+    "attemptedAt": "2026-10-23T12:00:09.992Z",
+    "completedAt": "2026-10-23T12:00:11.238Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-10-23T06:56:59.977Z",
+    "nextCheckAt": "2026-10-23T12:30:11.238Z",
     "hasErrors": false,
     "persistenceError": null
   }
