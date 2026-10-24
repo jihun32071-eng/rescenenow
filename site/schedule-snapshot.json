@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-10-24T07:12:10.137Z",
+      "attemptedAt": "2026-10-24T12:11:55.130Z",
       "raw": {
         "events": [
           {
@@ -646,18 +646,18 @@
           }
         ]
       },
-      "checkedAt": "2026-10-24T07:12:10.137Z",
+      "checkedAt": "2026-10-24T12:11:55.130Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-10-24T07:12:10.095Z",
-    "completedAt": "2026-10-24T07:12:11.183Z",
+    "attemptedAt": "2026-10-24T12:11:55.087Z",
+    "completedAt": "2026-10-24T12:11:56.143Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-10-24T07:42:11.183Z",
+    "nextCheckAt": "2026-10-24T12:41:56.143Z",
     "hasErrors": false,
     "persistenceError": null
   }
