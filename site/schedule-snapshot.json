@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-10-23T23:26:07.558Z",
+      "attemptedAt": "2026-10-24T01:55:11.880Z",
       "raw": {
         "events": [
           {
@@ -475,6 +475,17 @@
             "startAtAllDay": "2026-10-17"
           },
           {
+            "id": "6adb1f0443ea3171535c8d2a",
+            "title": "동아대학교 승학 캠퍼스 축제",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-23T09:50:00Z"
+          },
+          {
             "id": "6a8d89530baf003252ac6227",
             "title": "마산대학교 축제",
             "label": {
@@ -482,19 +493,8 @@
               "name": "행사",
               "color": "#BAE3AB"
             },
-            "allDay": true,
-            "startAtAllDay": "2026-10-23"
-          },
-          {
-            "id": "6adb1f0443ea3171535c8d2a",
-            "title": "동아대학교 축제 (승학캠)",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": true,
-            "startAtAllDay": "2026-10-23"
+            "allDay": false,
+            "startAt": "2026-10-23T12:00:00Z"
           },
           {
             "id": "6abeaf6f9fce30571f6042d7",
@@ -624,18 +624,18 @@
           }
         ]
       },
-      "checkedAt": "2026-10-23T23:26:07.558Z",
+      "checkedAt": "2026-10-24T01:55:11.880Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-10-23T23:26:07.517Z",
-    "completedAt": "2026-10-23T23:26:14.104Z",
+    "attemptedAt": "2026-10-24T01:55:11.832Z",
+    "completedAt": "2026-10-24T01:55:13.173Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-10-23T23:56:14.104Z",
+    "nextCheckAt": "2026-10-24T02:25:13.173Z",
     "hasErrors": false,
     "persistenceError": null
   }
