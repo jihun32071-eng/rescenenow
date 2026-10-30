@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-10-30T13:28:07.057Z",
+      "attemptedAt": "2026-10-30T18:48:56.601Z",
       "raw": {
         "events": [
           {
@@ -519,6 +519,17 @@
             "startAt": "2026-10-24T10:00:00Z"
           },
           {
+            "id": "6ae4a4065ba3d32fb9cca84a",
+            "title": "갤럭시 나이트 - 네이버 쇼핑라이브",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-10-30T11:00:00Z"
+          },
+          {
             "id": "6a3e80b31df3183e76dd7b31",
             "title": "경주 APEC 정상회의장 기념관 개관식",
             "label": {
@@ -572,6 +583,28 @@
             },
             "allDay": true,
             "startAtAllDay": "2026-11-14"
+          },
+          {
+            "id": "6ae4ba84a46d723d18905122",
+            "title": "2026 MAMA AWARDS (OSAKA)",
+            "label": {
+              "id": "67ad882c12f28a75033a8c28",
+              "name": "공연",
+              "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-20"
+          },
+          {
+            "id": "6ae4ae265e04b81dc54f1e11",
+            "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR",
+            "label": {
+              "id": "67ad882c12f28a75033a8c26",
+              "name": "팬사인회",
+              "color": "#EEB1B1"
+            },
+            "allDay": false,
+            "startAt": "2026-11-22T04:00:00Z"
           },
           {
             "id": "6a723ca8ecba71370c377686",
@@ -646,18 +679,18 @@
           }
         ]
       },
-      "checkedAt": "2026-10-30T13:28:07.057Z",
+      "checkedAt": "2026-10-30T18:48:56.601Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-10-30T13:28:06.939Z",
-    "completedAt": "2026-10-30T13:28:13.637Z",
+    "attemptedAt": "2026-10-30T18:48:56.558Z",
+    "completedAt": "2026-10-30T18:48:58.336Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-10-30T13:58:13.637Z",
+    "nextCheckAt": "2026-10-30T19:18:58.336Z",
     "hasErrors": false,
     "persistenceError": null
   }
