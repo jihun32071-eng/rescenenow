@@ -328,218 +328,9 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-10-31T08:48:40.655Z",
+      "attemptedAt": "2026-10-31T15:16:13.000Z",
       "raw": {
         "events": [
-          {
-            "id": "6a8d885d8e8ebf53edc6a55d",
-            "title": "계명대학교 축제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-01T11:00:00Z"
-          },
-          {
-            "id": "6a8d889c8e8ebf53edc6a55f",
-            "title": "대구보건대학교 축제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-01T13:10:00Z"
-          },
-          {
-            "id": "6ac0db6e61092456453dd662",
-            "title": "SBS <무엇이든 해줄지니 - 비서진>",
-            "label": {
-              "id": "67ad882c12f28a75033a8c23",
-              "name": "방송",
-              "color": "#F4BDA6"
-            },
-            "allDay": false,
-            "startAt": "2026-10-02T14:10:00Z"
-          },
-          {
-            "id": "6a3e81070b7c92615f50c73f",
-            "title": "2026 입크 페스티벌",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-03T06:50:00Z"
-          },
-          {
-            "id": "6a98f6bd4563ce4caf466390",
-            "title": "제72회 백제문화제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-03T11:30:00Z"
-          },
-          {
-            "id": "6abeae327cda1f77dc44908f",
-            "title": "2026 의령 리치리치페스티벌",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-04T11:00:00Z"
-          },
-          {
-            "id": "6aa966b78bbf3631c83b8e7f",
-            "title": "제14회 연수 능허대 문화축제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-09T11:00:00Z"
-          },
-          {
-            "id": "6ac7a5627a5b7f332bf392dc",
-            "title": "KBS 2TV <해피투게더 - 혼자가 아니어서 좋아>",
-            "label": {
-              "id": "67ad882c12f28a75033a8c23",
-              "name": "방송",
-              "color": "#F4BDA6"
-            },
-            "allDay": false,
-            "startAt": "2026-10-09T11:30:00Z"
-          },
-          {
-            "id": "6a98f7a94563ce4caf466391",
-            "title": "2026 대전 동구동락 축제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-10T11:00:00Z"
-          },
-          {
-            "id": "6a723c906e77820edf3dbd8c",
-            "title": "🎉 HAPPY LIV DAY",
-            "label": {
-              "id": "67ad882c12f28a75033a8c27",
-              "name": "기념일",
-              "color": "#E8A4D7"
-            },
-            "allDay": true,
-            "startAtAllDay": "2026-10-11"
-          },
-          {
-            "id": "6a48ce2d2abffc033aa33c91",
-            "title": "2026 GHOST (경기 한류 OST 뮤직페스티벌)",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-11T07:10:00Z"
-          },
-          {
-            "id": "6acb95e6447ee70d40cd0eaa",
-            "title": "SBS 8 뉴스",
-            "label": {
-              "id": "67ad882c12f28a75033a8c23",
-              "name": "방송",
-              "color": "#F4BDA6"
-            },
-            "allDay": false,
-            "startAt": "2026-10-11T11:00:00Z"
-          },
-          {
-            "id": "6a4612a67dd960680ac6f9b8",
-            "title": "NOL FESTIVAL - 고양",
-            "label": {
-              "id": "67ad882c12f28a75033a8c28",
-              "name": "공연",
-              "color": "#A0DEEF"
-            },
-            "allDay": false,
-            "startAt": "2026-10-17T08:30:00Z"
-          },
-          {
-            "id": "6adb1f0443ea3171535c8d2a",
-            "title": "동아대학교 승학 캠퍼스 축제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-23T09:50:00Z"
-          },
-          {
-            "id": "6a8d89530baf003252ac6227",
-            "title": "마산대학교 축제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-23T12:00:00Z"
-          },
-          {
-            "id": "6abeaf6f9fce30571f6042d7",
-            "title": "여기어때 콘서트팩 거제",
-            "label": {
-              "id": "67ad882c12f28a75033a8c28",
-              "name": "공연",
-              "color": "#A0DEEF"
-            },
-            "allDay": true,
-            "startAtAllDay": "2026-10-24"
-          },
-          {
-            "id": "6adb1fc313e68b02d4a6b12a",
-            "title": "한화오션 오션하모니",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-24T10:00:00Z"
-          },
-          {
-            "id": "6ae4a4065ba3d32fb9cca84a",
-            "title": "갤럭시 나이트 - 네이버 쇼핑라이브",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-30T11:00:00Z"
-          },
-          {
-            "id": "6a3e80b31df3183e76dd7b31",
-            "title": "경주 APEC 정상회의장 기념관 개관식",
-            "label": {
-              "id": "67ad882c12f28a75033a8c25",
-              "name": "행사",
-              "color": "#BAE3AB"
-            },
-            "allDay": false,
-            "startAt": "2026-10-31T07:00:00Z"
-          },
           {
             "id": "6ac0dfe7015621443851b99b",
             "title": "The 4th Mini Album [PULSE]",
@@ -607,6 +398,17 @@
             "startAt": "2026-11-22T04:00:00Z"
           },
           {
+            "id": "6ae4c03fa46d723d18905123",
+            "title": "멜론 STAGE 99",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-24"
+          },
+          {
             "id": "6a723ca8ecba71370c377686",
             "title": "🎉 HAPPY ZENA DAY",
             "label": {
@@ -616,6 +418,17 @@
             },
             "allDay": true,
             "startAtAllDay": "2026-11-27"
+          },
+          {
+            "id": "6ae5ef3d5ba3d32fb9cca86f",
+            "title": "[PULSE] 영상통화/대면 팬사인회 by WITHMUU",
+            "label": {
+              "id": "67ad882c12f28a75033a8c26",
+              "name": "팬사인회",
+              "color": "#EEB1B1"
+            },
+            "allDay": false,
+            "startAt": "2026-11-27T09:30:00Z"
           },
           {
             "id": "6a723cc4ecba71370c377687",
@@ -654,12 +467,6 @@
         ],
         "months": [
           {
-            "month": "2026-10",
-            "stale": false,
-            "error": null,
-            "empty": false
-          },
-          {
             "month": "2026-11",
             "stale": false,
             "error": null,
@@ -679,18 +486,18 @@
           }
         ]
       },
-      "checkedAt": "2026-10-31T08:48:40.655Z",
+      "checkedAt": "2026-10-31T15:16:13.000Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-10-31T08:48:40.574Z",
-    "completedAt": "2026-10-31T08:48:42.753Z",
+    "attemptedAt": "2026-10-31T15:16:12.973Z",
+    "completedAt": "2026-10-31T15:16:19.511Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-10-31T09:18:42.753Z",
+    "nextCheckAt": "2026-10-31T15:46:19.511Z",
     "hasErrors": false,
     "persistenceError": null
   }
