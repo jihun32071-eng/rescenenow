@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-02T06:47:07.075Z",
+      "attemptedAt": "2026-11-02T16:59:00.953Z",
       "raw": {
         "events": [
           {
@@ -363,6 +363,17 @@
             },
             "allDay": true,
             "startAtAllDay": "2026-11-07"
+          },
+          {
+            "id": "6ae8b3bd5e04b81dc54f220e",
+            "title": "[PULSE] 대면/영상통화 팬사인회 by MAKESTAR",
+            "label": {
+              "id": "67ad882c12f28a75033a8c26",
+              "name": "팬사인회",
+              "color": "#EEB1B1"
+            },
+            "allDay": false,
+            "startAt": "2026-11-08T09:30:00Z"
           },
           {
             "id": "6adc11ce13e68b02d4a6b14a",
@@ -431,6 +442,17 @@
             "startAtAllDay": "2026-11-29"
           },
           {
+            "id": "6ae8b5f0a46d723d18905224",
+            "title": "[PULSE] 대면/영상통화 팬사인회 by WHOSFAN",
+            "label": {
+              "id": "67ad882c12f28a75033a8c26",
+              "name": "팬사인회",
+              "color": "#EEB1B1"
+            },
+            "allDay": false,
+            "startAt": "2026-11-29T05:00:00Z"
+          },
+          {
             "id": "6a98f652301866263741bcec",
             "title": "AAA 2026 in Kaohsiung",
             "label": {
@@ -472,21 +494,27 @@
             "stale": false,
             "error": null,
             "empty": false
+          },
+          {
+            "month": "2027-02",
+            "stale": false,
+            "error": null,
+            "empty": false
           }
         ]
       },
-      "checkedAt": "2026-11-02T06:47:07.075Z",
+      "checkedAt": "2026-11-02T16:59:00.953Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-02T06:47:07.036Z",
-    "completedAt": "2026-11-02T06:47:07.574Z",
+    "attemptedAt": "2026-11-02T16:59:00.910Z",
+    "completedAt": "2026-11-02T16:59:07.834Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-02T07:17:07.574Z",
+    "nextCheckAt": "2026-11-02T17:29:07.834Z",
     "hasErrors": false,
     "persistenceError": null
   }
