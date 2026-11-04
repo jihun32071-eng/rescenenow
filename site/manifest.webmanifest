@@ -2,14 +2,20 @@
   "id": "./",
   "name": "RESCENE NOW · 리센느",
   "short_name": "RESCENE NOW",
-  "description": "리센느 공식 새 영상과 최신 소식",
+  "description": "리센느의 새로운 순간, PULSE. 영상과 일정, 최신 소식을 한곳에서.",
   "lang": "ko",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#f7f8f4",
-  "theme_color": "#f7f8f4",
+  "background_color": "#f5f5f2",
+  "theme_color": "#f5f5f2",
   "icons": [
+    {
+      "src": "icon-pulse.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    },
     {
       "src": "icon-192.png",
       "sizes": "192x192",

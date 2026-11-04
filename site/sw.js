@@ -1,8 +1,8 @@
 // Static hosting service worker. Scope-relative URLs also work on /repository/ Pages sites.
 const BASE=new URL('./',self.registration.scope);
 const PREFIX='rescene-pages-'+encodeURIComponent(BASE.pathname)+'-';
-const CACHE=PREFIX+'fcafcb111cad62e1';
-const SHELL=['./','index.html','style.css','app.js','video-utils.js','refresh-utils.js','schedule-utils.js','schedule-curated.json','manifest.webmanifest','icon-192.png','icon-512.png'].map(file=>new URL(file,BASE).href);
+const CACHE=PREFIX+'pulse-20261104-1';
+const SHELL=['./','index.html','style.css','app.js','video-utils.js','refresh-utils.js','schedule-utils.js','schedule-curated.json','manifest.webmanifest','icon-pulse.svg','icon-192.png','icon-512.png',...['cover','group-b','woni','liv','minami','may','zena'].map(name=>'assets/pulse/pulse-'+name+'.jpg')].map(file=>new URL(file,BASE).href);
 self.addEventListener('install',event=>event.waitUntil(caches.open(CACHE).then(cache=>cache.addAll(SHELL)).then(()=>self.skipWaiting())));
 self.addEventListener('activate',event=>event.waitUntil(caches.keys().then(keys=>Promise.all(keys.filter(key=>key.startsWith(PREFIX)&&key!==CACHE).map(key=>caches.delete(key)))).then(()=>self.clients.claim())));
 async function savedSnapshot(response,name){

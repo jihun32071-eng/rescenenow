@@ -4,6 +4,14 @@
 
 사이트: https://jihun32071-eng.github.io/rescenenow/
 
+## PULSE 디자인
+
+4번째 미니 앨범 PULSE의 공식 콘셉트 사진과 실버·블루 색감을 사용합니다. 상단 공식 영상, 수록곡 하이라이트, 멤버별 영상 선택을 사이트 안의 플레이어로 연결하며 기존 영상 분류·검색·일정·뉴스·공유 기능을 유지합니다. 브라우저 앱(PWA)도 같은 화면을 사용합니다. 기존 독립 APK의 화면은 별도 버전입니다.
+
+앨범 이미지: [공식 PULSE 링크](https://rescene.lnk.to/PULSE). 멤버·단체 콘셉트 사진: THE MUZE Entertainment 제공, [Starnews 배포 기사](https://www.starnewskorea.com/en/music/2026/10/20/2026102007012933076). 로컬 사진은 `site/assets/pulse/`에 보관하며 페이지 하단에 출처를 표시합니다.
+
+로컬 미리보기: `node scripts/preview.mjs` 실행 후 http://127.0.0.1:4317/rescenenow/ 를 엽니다.
+
 ## 구성
 
 - `site/`: 웹 화면, 멤버 사진, 영상 목록과 일정, APK

@@ -1,31 +1,93 @@
 <!doctype html>
 <html lang="ko">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<meta name="theme-color" content="#f7f8f4"><meta name="description" content="리센느 영상과 스케줄, 최신 소식을 한곳에서 확인하세요.">
-<title>RESCENE NOW · 리센느의 오늘</title><link rel="manifest" href="manifest.webmanifest"><link rel="icon" href="icon-192.png"><link rel="stylesheet" href="style.css">
-<script defer src="video-utils.js"></script><script defer src="refresh-utils.js"></script><script defer src="schedule-utils.js"></script><script defer src="app.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#f5f5f2">
+  <meta name="description" content="리센느의 새로운 순간, PULSE. 최신 영상과 일정, 소식을 RESCENE NOW에서 만나세요.">
+  <meta property="og:title" content="RESCENE NOW · PULSE">
+  <meta property="og:description" content="리센느의 영상, 일정, 소식을 한곳에서.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="https://jihun32071-eng.github.io/rescenenow/assets/pulse/pulse-cover.jpg">
+  <title>RESCENE NOW · PULSE</title>
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="icon" href="icon-pulse.svg" type="image/svg+xml">
+  <link rel="apple-touch-icon" href="icon-192.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400;1,500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script defer src="video-utils.js"></script>
+  <script defer src="refresh-utils.js"></script>
+  <script defer src="schedule-utils.js"></script>
+  <script defer src="app.js"></script>
 </head>
 <body>
-<header><a class="brand" href="#">RESCENE <span>NOW</span></a><nav aria-label="주요 메뉴"><a href="#videos">영상</a><a href="#schedule">스케줄</a><a href="#news">소식</a><a href="#settings">앱 · 설정</a></nav></header>
+<a class="skip-link" href="#videos">영상 목록으로 바로 가기</a>
+<header class="site-header">
+  <a class="brand" href="#pulse" aria-label="RESCENE NOW 처음으로">rescene<span>now<i aria-hidden="true"></i></span></a>
+  <nav aria-label="주요 메뉴"><a href="#videos">영상</a><a href="#schedule">일정</a><a href="#news">소식</a></nav>
+  <a class="header-era" href="https://rescene.lnk.to/PULSE" target="_blank" rel="noopener noreferrer">THE PULSE ERA <span>↗</span></a>
+</header>
 <main>
-<div class="intro"><div><p class="eyebrow">FOR REMINE</p><h1>리센느, 지금.</h1><p class="sub">영상, 스케줄, 소식을 한곳에.</p></div><span id="today-label" class="today"></span></div>
-<section id="miniroom" aria-labelledby="miniroom-title"><div id="miniroom-root"><p class="note">다섯 멤버의 미니룸을 준비하고 있어요.</p></div></section>
-<div class="live-bar"><div><span id="live-indicator" class="live-indicator">확인 준비</span><p id="status" role="status">최신 목록을 확인하는 중…</p></div><div class="live-actions"><button id="refresh" type="button">↻ 새로고침</button><button id="share" type="button"><svg viewBox="0 0 24 24" width="14" height="14" aria-hidden="true"><path d="M12 15V3m-4 4 4-4 4 4M5 12v8h14v-8" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg> 공유</button></div></div>
-<p id="share-status" class="note share-status" role="status" aria-live="polite" hidden></p>
-<section id="videos" aria-labelledby="video-title">
-<div class="section-head"><h2 id="video-title">영상</h2><span id="video-count" class="meta"></span></div>
-<div class="filters">
-<div class="chips categories" role="group" aria-label="영상 카테고리"><button type="button" data-type="" aria-pressed="false">전체</button><button type="button" data-type="official" aria-pressed="false">공식</button><button type="button" data-type="anwonn" aria-pressed="false">안원잘부</button><button type="button" data-type="variety" aria-pressed="false">예능</button><button type="button" data-type="stage" aria-pressed="false">음악·무대</button><button type="button" data-type="fancam" aria-pressed="false">직캠</button><button type="button" data-type="shorts" aria-pressed="false">Shorts</button></div>
-<div class="filter-controls"><div class="search-row"><input id="video-search" aria-label="영상 검색" type="search" placeholder="제목이나 멤버 이름 검색" autocomplete="off"><button id="reset-filters" type="button">초기화</button></div>
-<details id="advanced-filters"><summary><svg viewBox="0 0 24 24" width="17" height="17" aria-hidden="true"><path d="M4 7h16M4 17h16M9 4v6M15 14v6" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/></svg> 필터</summary><div class="filter-row"><span>멤버</span><div class="chips" role="group" aria-label="멤버 필터"><button type="button" data-member="" aria-pressed="false">전체</button><button type="button" data-member="woni" aria-pressed="false">원이</button><button type="button" data-member="liv" aria-pressed="false">리브</button><button type="button" data-member="minami" aria-pressed="false">미나미</button><button type="button" data-member="may" aria-pressed="false">메이</button><button type="button" data-member="zena" aria-pressed="false">제나</button></div></div><div class="source-row"><label for="source-filter">채널</label><select id="source-filter"><option value="">모든 채널</option></select></div><p class="meta">멤버 이름이 제목·설명에 있는 영상만 멤버별로 표시합니다.</p></details></div>
-</div>
-<p id="category-guide" class="note" hidden></p><p id="filter-note" class="note" hidden></p><p id="video-note" class="note" aria-live="polite"></p><div id="video-grid" class="video-grid" aria-busy="true"><div class="loading">영상을 불러오는 중…</div></div><div class="video-actions"><button id="more-videos" class="more" type="button" hidden>영상 더 보기</button><button id="collapse-videos" class="more" type="button" hidden>처음 12편만 보기</button></div>
-</section>
-<section id="schedule" aria-labelledby="schedule-title"><div class="section-head"><h2 id="schedule-title">스케줄 <span id="schedule-count" class="meta"></span></h2><a href="https://artist.mnetplus.world/main/stg/rescene-official/schedule" target="_blank" rel="noopener noreferrer">공식 캘린더 ↗</a></div><p id="schedule-note" class="note" role="status">공개된 일정을 확인하는 중…</p><div id="schedule-list"><div class="loading">스케줄 불러오는 중…</div></div><button id="more-schedule" class="more" type="button" hidden>일정 더 보기</button></section>
-<section id="news" aria-labelledby="news-title"><div class="section-head"><h2 id="news-title">소식</h2><a href="https://news.google.com/search?q=리센느&hl=ko&gl=KR&ceid=KR%3Ako" target="_blank" rel="noopener noreferrer">기사 더 찾기 ↗</a></div><p id="news-note" class="note"></p><div id="news-list"></div><button id="more-news" class="more" type="button" hidden>소식 더 보기</button></section>
-<section id="settings" aria-label="앱과 업데이트 설정"><details class="settings-menu"><summary>앱 설치 · 업데이트 정보</summary><div class="settings-content"><details class="install-tools"><summary>휴대폰에서 보기</summary><div class="app-tools"><a class="app-download" href="RESCENE-NOW-Android.apk" download>안드로이드 앱 다운로드</a><button id="install" type="button">브라우저 앱 설치</button><span id="install-note" role="status">휴대폰에서도 같은 주소로 볼 수 있습니다. 브라우저 메뉴에서 앱으로 설치할 수 있어요.</span></div></details><div class="alert-tools" hidden><button id="alerts-button" type="button">새 영상 알림 켜기</button><span id="alerts-note"></span></div><details class="diagnostic-panel"><summary>업데이트 상세</summary><p id="next-check" class="meta">5분마다 자동 확인</p><div class="update-panel"><div><span>영상 채널</span><strong id="video-health">확인 중</strong></div><div><span>뉴스</span><strong id="news-health">확인 중</strong></div></div><p class="meta">서버에서 약 30분마다 새 소식을 확인하며 실행이 늦어질 수 있습니다. 새로고침은 가장 최근에 저장된 목록을 다시 읽습니다. 연결 실패 시 저장한 목록과 실제 마지막 확인 날짜를 유지합니다. 채널의 공개 영상·Shorts·출연 검색에서 수집하며 비공개·삭제된 영상이나 전체 과거 영상이 모두 포함되지는 않습니다.</p><div id="diagnostics"></div></details></div></details></section>
-<footer><strong>RESCENE NOW</strong><p>비공식 팬 소식 모음 · 한국 시간 기준</p></footer>
+  <section id="pulse" class="hero" aria-labelledby="pulse-title">
+    <div class="hero-copy">
+      <p class="eyebrow"><span class="small-dot" aria-hidden="true"></span> RESCENE · THE 4TH MINI ALBUM</p>
+      <div class="pulse-wordmark"><h1 id="pulse-title">Pulse</h1><svg class="pulse-line" viewBox="0 0 420 130" fill="none" aria-hidden="true"><path d="M1 75h90l14-12 15 22 17-54 22 86 21-103 22 91 17-40 15 10h185" stroke="currentColor" stroke-width="1.3"/></svg><span class="hero-star" aria-hidden="true">✧</span></div>
+      <h2>마음이 닿는,<br>새로운 장면.</h2>
+      <p class="hero-description">다섯 멤버의 새로운 리듬.<br>지금의 리센느를 가장 가까이에서 만나세요.</p>
+      <div class="hero-actions"><button id="pulse-play" class="button-primary" type="button"><span class="play-symbol" aria-hidden="true">▶</span><span id="pulse-play-label">공식 영상 재생</span><span aria-hidden="true">↗</span></button><a class="text-link" href="https://rescene.lnk.to/PULSE" target="_blank" rel="noopener noreferrer">앨범 듣기 <span>↗</span></a></div>
+      <div class="hero-meta"><span>2026.11.03 RELEASE</span><span>WITH · TITLE TRACK</span></div>
+    </div>
+    <div class="hero-art">
+      <div class="photo-index"><span>RESCENE / PULSE</span><span>01 — 05</span></div>
+      <div class="hero-photo"><img src="assets/pulse/pulse-group-b.jpg" width="640" height="597" alt="PULSE 콘셉트 사진 속 흰 의상을 입은 리센느 다섯 멤버" fetchpriority="high"></div>
+      <a class="album-note" href="https://rescene.lnk.to/PULSE" target="_blank" rel="noopener noreferrer"><img src="assets/pulse/pulse-cover.jpg" width="72" height="72" alt="PULSE 앨범 커버"><span><small>THE NEW CHAPTER</small><strong>Feel the Pulse.</strong><span>RESCENE 4th Mini Album</span></span><span class="album-arrow" aria-hidden="true">↗</span></a>
+    </div>
+  </section>
+
+  <div class="track-ribbon" role="group" aria-label="PULSE 수록곡 하이라이트 재생">
+    <span class="track-caption">THE TRACKS <span>하이라이트 듣기</span></span>
+    <button type="button" data-pulse-video="CbsHNx-mbe0" data-pulse-title="Finest Thing · PULSE 하이라이트" aria-label="Finest Thing 하이라이트 재생"><span>01</span> Finest Thing <i aria-hidden="true">↗</i></button>
+    <button class="title-track" type="button" data-pulse-video="BRL7ag8oEO0" data-pulse-title="With · PULSE 하이라이트" aria-label="With 하이라이트 재생"><span>02</span> With <small>TITLE</small><i aria-hidden="true">↗</i></button>
+    <button type="button" data-pulse-video="CWEsngk-rF0" data-pulse-title="백화요란 (Inside Out) · PULSE 하이라이트" aria-label="백화요란 Inside Out 하이라이트 재생"><span>03</span> Inside Out <i aria-hidden="true">↗</i></button>
+    <button type="button" data-pulse-video="mrfisPt2wOk" data-pulse-title="MEME · PULSE 하이라이트" aria-label="MEME 하이라이트 재생"><span>04</span> MEME <i aria-hidden="true">↗</i></button>
+    <button type="button" data-pulse-video="MNxIMnWhBRQ" data-pulse-title="Dragon · PULSE 하이라이트" aria-label="Dragon 하이라이트 재생"><span>05</span> Dragon <i aria-hidden="true">↗</i></button>
+  </div>
+
+  <section class="members-section" aria-labelledby="members-title">
+    <div class="section-head"><div><p class="eyebrow">FIVE DIFFERENT LIGHTS</p><h2 id="members-title">다섯 개의 빛<span class="serif-mark">.</span></h2></div><p class="section-aside">멤버를 누르면 출연 영상을 모아볼 수 있어요.</p></div>
+    <div class="member-grid" role="group" aria-label="멤버별 영상 선택">
+      <button class="member-card" type="button" data-member="woni" aria-pressed="false"><span class="member-photo"><img src="assets/pulse/pulse-woni.jpg" width="640" height="960" alt="원이 PULSE 콘셉트 사진" loading="lazy"><span class="member-view">영상 보기 ↗</span></span><span class="member-name">WONI <span>원이</span></span></button>
+      <button class="member-card" type="button" data-member="liv" aria-pressed="false"><span class="member-photo"><img src="assets/pulse/pulse-liv.jpg" width="640" height="911" alt="리브 PULSE 콘셉트 사진" loading="lazy"><span class="member-view">영상 보기 ↗</span></span><span class="member-name">LIV <span>리브</span></span></button>
+      <button class="member-card" type="button" data-member="minami" aria-pressed="false"><span class="member-photo"><img src="assets/pulse/pulse-minami.jpg" width="640" height="426" alt="미나미 PULSE 콘셉트 사진" loading="lazy"><span class="member-view">영상 보기 ↗</span></span><span class="member-name">MINAMI <span>미나미</span></span></button>
+      <button class="member-card" type="button" data-member="zena" aria-pressed="false"><span class="member-photo"><img src="assets/pulse/pulse-zena.jpg" width="640" height="960" alt="제나 PULSE 콘셉트 사진" loading="lazy"><span class="member-view">영상 보기 ↗</span></span><span class="member-name">ZENA <span>제나</span></span></button>
+      <button class="member-card" type="button" data-member="may" aria-pressed="false"><span class="member-photo"><img src="assets/pulse/pulse-may.jpg" width="640" height="960" alt="메이 PULSE 콘셉트 사진" loading="lazy"><span class="member-view">영상 보기 ↗</span></span><span class="member-name">MAY <span>메이</span></span></button>
+    </div>
+  </section>
+
+  <section id="videos" class="videos-section" aria-labelledby="video-title">
+    <div class="section-head"><div><p class="eyebrow">ON SCREEN, RIGHT NOW</p><h2 id="video-title">새로운 장면들<span class="serif-mark">.</span></h2></div><span id="video-count" class="meta"></span></div>
+    <div class="live-bar"><div class="live-copy"><span id="live-indicator" class="live-indicator">확인 준비</span><p id="status" role="status">최신 목록을 확인하는 중…</p></div><div class="live-actions"><button id="refresh" type="button">↻ 새로고침</button><button id="share" type="button">공유 ↗</button></div></div>
+    <p id="share-status" class="note share-status" role="status" aria-live="polite" hidden></p>
+    <div class="filters"><div class="chips categories" role="group" aria-label="영상 카테고리"><button type="button" data-type="" aria-pressed="true">전체</button><button type="button" data-type="official" aria-pressed="false">공식</button><button type="button" data-type="anwonn" aria-pressed="false">안원잘부</button><button type="button" data-type="variety" aria-pressed="false">예능</button><button type="button" data-type="stage" aria-pressed="false">음악·무대</button><button type="button" data-type="fancam" aria-pressed="false">직캠</button><button type="button" data-type="shorts" aria-pressed="false">Shorts</button></div>
+      <div class="filter-controls"><div class="search-row"><span aria-hidden="true">⌕</span><input id="video-search" aria-label="영상 검색" type="search" placeholder="어떤 장면을 찾고 있나요?" autocomplete="off"><button id="reset-filters" type="button" hidden>초기화</button></div><details id="advanced-filters"><summary>필터 <span aria-hidden="true">＋</span></summary><div class="filter-row"><span>멤버</span><div class="chips" role="group" aria-label="멤버 필터"><button type="button" data-member="" aria-pressed="true">전체</button><button type="button" data-member="woni" aria-pressed="false">원이</button><button type="button" data-member="liv" aria-pressed="false">리브</button><button type="button" data-member="minami" aria-pressed="false">미나미</button><button type="button" data-member="may" aria-pressed="false">메이</button><button type="button" data-member="zena" aria-pressed="false">제나</button></div></div><div class="source-row"><label for="source-filter">채널</label><select id="source-filter"><option value="">모든 채널</option></select></div><p class="meta">제목·설명에 이름이 표시된 영상을 멤버별로 모읍니다.</p></details></div>
+    </div>
+    <p id="category-guide" class="note" hidden></p><p id="filter-note" class="note filter-note" hidden></p><p id="video-note" class="note" aria-live="polite"></p>
+    <div id="video-grid" class="video-grid" aria-busy="true"><div class="loading">영상을 불러오는 중…</div></div>
+    <div class="video-actions"><button id="more-videos" class="more" type="button" hidden>영상 더 보기</button><button id="collapse-videos" class="more" type="button" hidden>처음 12편만 보기</button></div>
+  </section>
+
+  <div class="chapter-divider" aria-hidden="true"><span>EVERY MOMENT, WITH RESCENE</span><svg viewBox="0 0 280 60" fill="none"><path d="M0 32h90l10-8 12 18 14-34 15 45 17-50 15 38 10-18 12 9h85" stroke="currentColor"/></svg><span>FEEL THE PULSE</span></div>
+  <div class="journal-grid">
+    <section id="schedule" aria-labelledby="schedule-title"><div class="section-head"><div><p class="eyebrow">SAVE THE MOMENT</p><h2 id="schedule-title">다가오는 순간<span class="serif-mark">.</span></h2></div><span id="schedule-count" class="meta"></span></div><a class="section-link" href="https://artist.mnetplus.world/main/stg/rescene-official/schedule" target="_blank" rel="noopener noreferrer">공식 캘린더 ↗</a><p id="schedule-note" class="note" role="status">공개된 일정을 확인하는 중…</p><div id="schedule-list"><div class="loading">일정을 불러오는 중…</div></div><button id="more-schedule" class="more" type="button" hidden>일정 더 보기</button></section>
+    <section id="news" aria-labelledby="news-title"><div class="section-head"><div><p class="eyebrow">THE LATEST STORIES</p><h2 id="news-title">리센느의 소식<span class="serif-mark">.</span></h2></div></div><a class="section-link" href="https://news.google.com/search?q=리센느&amp;hl=ko&amp;gl=KR&amp;ceid=KR%3Ako" target="_blank" rel="noopener noreferrer">기사 더 찾기 ↗</a><p id="news-note" class="note"></p><div id="news-list"></div><button id="more-news" class="more" type="button" hidden>소식 더 보기</button></section>
+  </div>
+
+  <section id="settings" aria-label="앱과 업데이트 설정"><details class="settings-menu"><summary><span>언제 어디서나, RESCENE NOW</span><span>앱 설치 · 업데이트 정보 ＋</span></summary><div class="settings-content"><details class="install-tools" open><summary>휴대폰에서 보기</summary><div class="app-tools"><button id="install" class="button-primary" type="button">브라우저 앱 설치 ↗</button><span id="install-note" role="status">휴대폰에서도 이 주소를 열고 브라우저 메뉴에서 앱으로 설치할 수 있어요.</span><a class="app-download" href="RESCENE-NOW-Android.apk" download>기존 안드로이드 앱 다운로드 ↧</a><p class="meta">최신 웹 디자인과 업데이트는 브라우저 앱에서 이용할 수 있어요. 기존 APK는 별도 버전입니다.</p></div></details><div class="alert-tools" hidden><button id="alerts-button" type="button">새 영상 알림 켜기</button><span id="alerts-note"></span></div><details class="diagnostic-panel"><summary>업데이트 상세</summary><p id="next-check" class="meta">5분마다 자동 확인</p><div class="update-panel"><div><span>영상 채널</span><strong id="video-health">확인 중</strong></div><div><span>뉴스</span><strong id="news-health">확인 중</strong></div></div><p class="meta">서버가 약 30분마다 새 소식을 확인합니다. 실행이 늦어질 수 있으며 새로고침은 가장 최근 저장된 목록을 읽습니다. 연결 실패 시 저장 목록과 실제 마지막 확인 날짜를 유지합니다. 공개 영상·Shorts·출연 검색에서 수집하므로 비공개·삭제 영상이나 전체 과거 영상이 모두 포함되지는 않습니다.</p><div id="diagnostics"></div></details></div></details></section>
+
+  <footer><div class="footer-top"><a class="brand" href="#pulse">rescene<span>now<i aria-hidden="true"></i></span></a><p>Every moment feels like <em>Pulse.</em></p><a class="back-top" href="#pulse">맨 위로 ↑</a></div><div class="footer-bottom"><p>비공식 팬 소식 모음 · FOR REMINE<br><span id="today-label"></span> · 한국 시간 기준</p><p class="image-credit">PULSE photos © THE MUZE Entertainment<br><a href="https://rescene.lnk.to/PULSE" target="_blank" rel="noopener noreferrer">공식 앨범</a> · <a href="https://www.starnewskorea.com/en/music/2026/10/20/2026102007012933076" target="_blank" rel="noopener noreferrer">콘셉트 사진 출처 ↗</a></p></div></footer>
 </main>
-<dialog id="video-player" aria-labelledby="player-title"><div class="player-heading"><h2 id="player-title"></h2><div class="player-actions"><button id="fullscreen-player" type="button">⛶ 전체 화면</button><button id="close-player" type="button" aria-label="영상 닫기">✕ 닫기</button></div></div><div id="player-frame"></div><p class="player-note" role="status">재생이 시작되지 않으면 ▶를 눌러 주세요. 삽입 재생이 제한된 영상은 이곳에서 볼 수 없습니다.</p></dialog>
-</body></html>
+<dialog id="video-player" aria-labelledby="player-title"><div class="player-heading"><div><span class="eyebrow">NOW PLAYING</span><h2 id="player-title"></h2></div><div class="player-actions"><button id="fullscreen-player" type="button">⛶ 전체 화면</button><button id="close-player" type="button" aria-label="영상 닫기">✕ 닫기</button></div></div><div id="player-frame"></div><p class="player-note" role="status">재생이 시작되지 않으면 ▶를 눌러 주세요. 삽입 재생이 제한된 영상은 이곳에서 볼 수 없습니다.</p></dialog>
+</body>
+</html>
