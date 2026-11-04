@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-04T07:57:11.712Z",
+      "attemptedAt": "2026-11-04T12:37:51.693Z",
       "raw": {
         "events": [
           {
@@ -354,6 +354,17 @@
             "startAt": "2026-11-03T11:00:00Z"
           },
           {
+            "id": "6aeabe5d5ba3d32fb9ccab77",
+            "title": "MBC <쇼!음악중심> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-04T21:00:00Z"
+          },
+          {
             "id": "6aeabdec5e04b81dc54f256a",
             "title": "SBS <인기가요> 사전 녹화",
             "label": {
@@ -361,19 +372,30 @@
               "name": "방송",
               "color": "#F4BDA6"
             },
-            "allDay": true,
-            "startAtAllDay": "2026-11-05"
+            "allDay": false,
+            "startAt": "2026-11-05T01:30:00Z"
           },
           {
-            "id": "6aeabe5d5ba3d32fb9ccab77",
-            "title": "MBC <쇼음악중심> 사전 녹화",
+            "id": "6aeb1b00a46d723d189054e1",
+            "title": "KBS2 <뮤직뱅크> 사전 녹화",
             "label": {
               "id": "67ad882c12f28a75033a8c23",
               "name": "방송",
               "color": "#F4BDA6"
             },
-            "allDay": true,
-            "startAtAllDay": "2026-11-05"
+            "allDay": false,
+            "startAt": "2026-11-05T21:00:00Z"
+          },
+          {
+            "id": "6aeb1a6f5e04b81dc54f2630",
+            "title": "KBS2 <뮤직뱅크>",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-06T07:45:00Z"
           },
           {
             "id": "6a3e7e069f69517347795cee",
@@ -498,17 +520,6 @@
             "startAt": "2026-12-08T11:00:00Z"
           },
           {
-            "id": "6ae5f5c95e04b81dc54f1f04",
-            "title": "[PULSE] 영상통화 팬사인회 by WITHMUU",
-            "label": {
-              "id": "67ad882c12f28a75033a8c26",
-              "name": "팬사인회",
-              "color": "#EEB1B1"
-            },
-            "allDay": false,
-            "startAt": "2026-12-10T11:00:00Z"
-          },
-          {
             "id": "6adc139b5aa3932ecf5898af",
             "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
             "label": {
@@ -547,18 +558,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-04T07:57:11.712Z",
+      "checkedAt": "2026-11-04T12:37:51.693Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-04T07:57:11.667Z",
-    "completedAt": "2026-11-04T07:57:12.826Z",
+    "attemptedAt": "2026-11-04T12:37:51.636Z",
+    "completedAt": "2026-11-04T12:37:52.537Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-04T08:27:12.826Z",
+    "nextCheckAt": "2026-11-04T13:07:52.537Z",
     "hasErrors": false,
     "persistenceError": null
   }
