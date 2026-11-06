@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-06T00:06:47.378Z",
+      "attemptedAt": "2026-11-06T06:32:32.535Z",
       "raw": {
         "events": [
           {
@@ -398,6 +398,17 @@
             "startAt": "2026-11-06T07:45:00Z"
           },
           {
+            "id": "6aed5ffbb4515616f2a91868",
+            "title": "MBC <쇼!음악중심> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-06T21:45:00Z"
+          },
+          {
             "id": "6a3e7e069f69517347795cee",
             "title": "2026 KGMA (코리아 그랜드 뮤직 어워즈)",
             "label": {
@@ -407,6 +418,28 @@
             },
             "allDay": true,
             "startAtAllDay": "2026-11-07"
+          },
+          {
+            "id": "6aed5f75b4515616f2a91866",
+            "title": "SBS <인기가요> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-07T21:25:00Z"
+          },
+          {
+            "id": "6aed5f9fb4515616f2a91867",
+            "title": "SBS <인기가요>",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-08T06:10:00Z"
           },
           {
             "id": "6ae8b3bd5e04b81dc54f220e",
@@ -558,18 +591,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-06T00:06:47.378Z",
+      "checkedAt": "2026-11-06T06:32:32.535Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-06T00:06:47.332Z",
-    "completedAt": "2026-11-06T00:06:53.110Z",
+    "attemptedAt": "2026-11-06T06:32:32.488Z",
+    "completedAt": "2026-11-06T06:32:34.151Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-06T00:36:53.110Z",
+    "nextCheckAt": "2026-11-06T07:02:34.151Z",
     "hasErrors": false,
     "persistenceError": null
   }
