@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-09T06:04:51.266Z",
+      "attemptedAt": "2026-11-09T16:04:27.855Z",
       "raw": {
         "events": [
           {
@@ -451,6 +451,72 @@
             },
             "allDay": false,
             "startAt": "2026-11-08T09:30:00Z"
+          },
+          {
+            "id": "6af175a75e04b81dc54f3997",
+            "title": "SBS M <더 쇼> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-09T22:25:00Z"
+          },
+          {
+            "id": "6af175e1a46d723d189056f5",
+            "title": "SBS M <더 쇼> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-10T04:20:00Z"
+          },
+          {
+            "id": "6af17804a46d723d189056fc",
+            "title": "SBS M <더 쇼>",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-10T09:00:00Z"
+          },
+          {
+            "id": "6af162a2a46d723d189056e9",
+            "title": "MBC M <쇼! 챔피언> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-10T21:00:00Z"
+          },
+          {
+            "id": "6af162d3a46d723d189056ea",
+            "title": "MBC M <쇼! 챔피언> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-11T03:50:00Z"
+          },
+          {
+            "id": "6af16317a46d723d189056eb",
+            "title": "MBC M <쇼! 챔피언>",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-11T08:00:00Z"
           },
           {
             "id": "6adc11ce13e68b02d4a6b14a",
@@ -591,18 +657,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-09T06:04:51.266Z",
+      "checkedAt": "2026-11-09T16:04:27.855Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-09T06:04:51.169Z",
-    "completedAt": "2026-11-09T06:04:56.655Z",
+    "attemptedAt": "2026-11-09T16:04:27.828Z",
+    "completedAt": "2026-11-09T16:04:29.389Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-09T06:34:56.655Z",
+    "nextCheckAt": "2026-11-09T16:34:29.389Z",
     "hasErrors": false,
     "persistenceError": null
   }
