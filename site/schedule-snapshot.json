@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-11T09:14:13.180Z",
+      "attemptedAt": "2026-11-11T17:24:58.483Z",
       "raw": {
         "events": [
           {
@@ -519,6 +519,28 @@
             "startAt": "2026-11-11T08:00:00Z"
           },
           {
+            "id": "6af47819c920f3638b52225c",
+            "title": "BIODANCE 대면 팬사인회",
+            "label": {
+              "id": "67ad882c12f28a75033a8c26",
+              "name": "팬사인회",
+              "color": "#EEB1B1"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-12"
+          },
+          {
+            "id": "6af47175c920f3638b522257",
+            "title": "KBS2 <뮤직뱅크>",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-13T08:10:00Z"
+          },
+          {
             "id": "6adc11ce13e68b02d4a6b14a",
             "title": "2026 멜론 뮤직 어워드 (MMA)",
             "label": {
@@ -657,18 +679,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-11T09:14:13.180Z",
+      "checkedAt": "2026-11-11T17:24:58.483Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-11T09:14:13.133Z",
-    "completedAt": "2026-11-11T09:14:17.978Z",
+    "attemptedAt": "2026-11-11T17:24:58.450Z",
+    "completedAt": "2026-11-11T17:25:00.109Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-11T09:44:17.978Z",
+    "nextCheckAt": "2026-11-11T17:55:00.109Z",
     "hasErrors": false,
     "persistenceError": null
   }
