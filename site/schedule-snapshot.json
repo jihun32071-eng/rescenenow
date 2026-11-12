@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-11T23:40:13.806Z",
+      "attemptedAt": "2026-11-12T06:59:43.945Z",
       "raw": {
         "events": [
           {
@@ -552,6 +552,17 @@
             "startAtAllDay": "2026-11-14"
           },
           {
+            "id": "6af5486d16bd0539d8e6ba15",
+            "title": "MBC <쇼음악중심> 사전 녹화",
+            "label": {
+              "id": "67ad882c12f28a75033a8c23",
+              "name": "방송",
+              "color": "#F4BDA6"
+            },
+            "allDay": false,
+            "startAt": "2026-11-14T01:00:00Z"
+          },
+          {
             "id": "6ae4ba84a46d723d18905122",
             "title": "2026 MAMA AWARDS (OSAKA)",
             "label": {
@@ -650,6 +661,17 @@
             },
             "allDay": true,
             "startAtAllDay": "2026-12-13"
+          },
+          {
+            "id": "6af50e7574c3d63faa38c626",
+            "title": "2026 SBS 가요대전",
+            "label": {
+              "id": "67ad882c12f28a75033a8c28",
+              "name": "공연",
+              "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-12-24"
           }
         ],
         "months": [
@@ -679,18 +701,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-11T23:40:13.806Z",
+      "checkedAt": "2026-11-12T06:59:43.945Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-11T23:40:13.714Z",
-    "completedAt": "2026-11-11T23:40:15.556Z",
+    "attemptedAt": "2026-11-12T06:59:43.919Z",
+    "completedAt": "2026-11-12T06:59:44.835Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-12T00:10:15.556Z",
+    "nextCheckAt": "2026-11-12T07:29:44.835Z",
     "hasErrors": false,
     "persistenceError": null
   }
