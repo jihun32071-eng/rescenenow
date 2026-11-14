@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-13T23:49:46.063Z",
+      "attemptedAt": "2026-11-14T06:06:50.002Z",
       "raw": {
         "events": [
           {
@@ -607,6 +607,17 @@
             "startAt": "2026-11-22T04:00:00Z"
           },
           {
+            "id": "6af7e663290d6361dc478204",
+            "title": "멜론 STAGE 99",
+            "label": {
+              "id": "67ad882c12f28a75033a8c28",
+              "name": "공연",
+              "color": "#A0DEEF"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-11-24"
+          },
+          {
             "id": "6a723ca8ecba71370c377686",
             "title": "🎉 HAPPY ZENA DAY",
             "label": {
@@ -723,18 +734,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-13T23:49:46.063Z",
+      "checkedAt": "2026-11-14T06:06:50.002Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-13T23:49:45.975Z",
-    "completedAt": "2026-11-13T23:49:47.976Z",
+    "attemptedAt": "2026-11-14T06:06:49.922Z",
+    "completedAt": "2026-11-14T06:06:52.156Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-14T00:19:47.976Z",
+    "nextCheckAt": "2026-11-14T06:36:52.156Z",
     "hasErrors": false,
     "persistenceError": null
   }
