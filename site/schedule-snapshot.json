@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-20T08:24:39.399Z",
+      "attemptedAt": "2026-11-20T17:12:21.940Z",
       "raw": {
         "events": [
           {
@@ -662,6 +662,17 @@
             "startAt": "2026-11-29T05:00:00Z"
           },
           {
+            "id": "6b002a95a938105b2805bb9b",
+            "title": "와키윌리 팝업스토어",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": true,
+            "startAtAllDay": "2026-12-01"
+          },
+          {
             "id": "6a98f652301866263741bcec",
             "title": "AAA 2026 in Kaohsiung",
             "label": {
@@ -734,18 +745,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-20T08:24:39.399Z",
+      "checkedAt": "2026-11-20T17:12:21.940Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-20T08:24:39.290Z",
-    "completedAt": "2026-11-20T08:24:41.288Z",
+    "attemptedAt": "2026-11-20T17:12:21.906Z",
+    "completedAt": "2026-11-20T17:12:23.634Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-20T08:54:41.288Z",
+    "nextCheckAt": "2026-11-20T17:42:23.634Z",
     "hasErrors": false,
     "persistenceError": null
   }
