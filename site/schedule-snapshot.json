@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-21T20:01:43.804Z",
+      "attemptedAt": "2026-11-22T00:16:36.332Z",
       "raw": {
         "events": [
           {
@@ -618,6 +618,28 @@
             "startAtAllDay": "2026-11-24"
           },
           {
+            "id": "6b02343e7dada20be5d084e4",
+            "title": "할리스 미니 팬미팅",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-11-25T06:30:00Z"
+          },
+          {
+            "id": "6b023361946e254a8ebc928b",
+            "title": "디즈니 <헥스:마녀왕국> 스페셜 무대인사",
+            "label": {
+              "id": "67ad882c12f28a75033a8c25",
+              "name": "행사",
+              "color": "#BAE3AB"
+            },
+            "allDay": false,
+            "startAt": "2026-11-25T09:25:00Z"
+          },
+          {
             "id": "6a723ca8ecba71370c377686",
             "title": "🎉 HAPPY ZENA DAY",
             "label": {
@@ -745,18 +767,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-21T20:01:43.804Z",
+      "checkedAt": "2026-11-22T00:16:36.332Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-21T20:01:43.777Z",
-    "completedAt": "2026-11-21T20:01:45.850Z",
+    "attemptedAt": "2026-11-22T00:16:36.293Z",
+    "completedAt": "2026-11-22T00:16:42.973Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-21T20:31:45.850Z",
+    "nextCheckAt": "2026-11-22T00:46:42.973Z",
     "hasErrors": false,
     "persistenceError": null
   }
