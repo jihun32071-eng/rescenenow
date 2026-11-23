@@ -328,7 +328,7 @@
       "type": "mnetplus",
       "url": "https://artist.mnetplus.world/svc/stg/rescene-official/space/api/v1/calendar",
       "webUrl": "https://artist.mnetplus.world/main/stg/rescene-official/schedule",
-      "attemptedAt": "2026-11-23T11:11:12.653Z",
+      "attemptedAt": "2026-11-23T22:52:45.328Z",
       "raw": {
         "events": [
           {
@@ -718,6 +718,17 @@
             "startAt": "2026-12-08T11:00:00Z"
           },
           {
+            "id": "6ae5f5c95e04b81dc54f1f04",
+            "title": "[PULSE] 영상통화 팬사인회 by WITHMUU",
+            "label": {
+              "id": "67ad882c12f28a75033a8c26",
+              "name": "팬사인회",
+              "color": "#EEB1B1"
+            },
+            "allDay": false,
+            "startAt": "2026-12-10T11:30:00Z"
+          },
+          {
             "id": "6adc139b5aa3932ecf5898af",
             "title": "2026 MUSIC BANK GLOBAL FESTIVAL IN JAPAN",
             "label": {
@@ -767,18 +778,18 @@
           }
         ]
       },
-      "checkedAt": "2026-11-23T11:11:12.653Z",
+      "checkedAt": "2026-11-23T22:52:45.328Z",
       "stale": false,
       "error": null
     }
   ],
   "refresh": {
-    "attemptedAt": "2026-11-23T11:11:12.606Z",
-    "completedAt": "2026-11-23T11:11:14.424Z",
+    "attemptedAt": "2026-11-23T22:52:45.282Z",
+    "completedAt": "2026-11-23T22:52:48.482Z",
     "mode": "scheduled",
     "intervalMinutes": 30,
     "freshnessMinutes": 90,
-    "nextCheckAt": "2026-11-23T11:41:14.424Z",
+    "nextCheckAt": "2026-11-23T23:22:48.482Z",
     "hasErrors": false,
     "persistenceError": null
   }
